@@ -73,7 +73,7 @@ static uint32_t _atoi(const char* sp) {
 #elif defined(NRF52_PLATFORM)
   #if defined(WITH_ETHERNET_COMPANION)
     #include <SPI.h>
-    #include <helpers/SerialEthernetInterface.h>
+    #include <helpers/nrf52/SerialEthernetInterface.h>
     SerialEthernetInterface serial_interface;
     // Dedicated SPI for the W5100S on its own pins (SCK=3, MISO=29, MOSI=30).
     // The radio remaps the global `SPI` to the LoRa pins (43/44/45) in

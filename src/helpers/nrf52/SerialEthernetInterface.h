@@ -1,6 +1,6 @@
 #pragma once
 
-#include "BaseSerialInterface.h"
+#include "../BaseSerialInterface.h"
 #include <RAK13800_W5100S.h>
 
 // Multi-client TCP companion interface over a W5100S Ethernet module (RAK13800).
